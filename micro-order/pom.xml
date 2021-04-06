@@ -80,6 +80,7 @@
                     </execution>
                 </executions>
                 <configuration>
+                    <googleContainerRegistryEnabled>false</googleContainerRegistryEnabled>
                     <!--指定Dockerfile文件位置-->
                     <dockerfile>docker/Dockerfile</dockerfile>
                     <repository>${docker.repository}/dingdao/${project.artifactId}</repository>
