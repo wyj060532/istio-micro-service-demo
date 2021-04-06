@@ -79,9 +79,9 @@
                     </execution>
                 </executions>
                 <configuration>
-<!--                    <useMavenSettingsForAuth>true</useMavenSettingsForAuth>-->
                     <username>鼎道智联</username>
                     <password>DingDao@os21</password>
+                    <useMavenSettingsForAuth>false</useMavenSettingsForAuth>
                     <googleContainerRegistryEnabled>false</googleContainerRegistryEnabled>
                     <!--指定Dockerfile文件位置-->
                     <dockerfile>docker/Dockerfile</dockerfile>
