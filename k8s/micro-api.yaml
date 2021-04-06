@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
         - name: micro-api
-          image: 10.211.55.2:8080/micro-service/micro-api:1.0-SNAPSHOT
+          image: registry.cn-beijing.aliyuncs.com/dingdao/micro-api:1.0-SNAPSHOT
           imagePullPolicy: Always
           tty: true
           ports:

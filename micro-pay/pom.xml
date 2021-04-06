@@ -16,7 +16,7 @@
 
     <properties>
         <!--定义Docker镜像仓库地址-->
-        <docker.repository>10.211.55.2:8080</docker.repository>
+        <docker.repository>registry.cn-beijing.aliyuncs.com</docker.repository>
     </properties>
 
     <dependencies>
@@ -81,7 +81,7 @@
                 <configuration>
                     <!--指定Dockerfile文件位置-->
                     <dockerfile>docker/Dockerfile</dockerfile>
-                    <repository>${docker.repository}/micro-service/${project.artifactId}</repository>
+                    <repository>${docker.repository}/dingdao/${project.artifactId}</repository>
                     <tag>${project.version}</tag>
                     <buildArgs>
                         <!--提供参数向Dockerfile传递-->

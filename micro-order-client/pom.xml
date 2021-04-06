@@ -27,7 +27,7 @@
         <!--引入Istio-feign的适配依赖包-->
         <dependency>
             <groupId>istio.fake</groupId>
-            <artifactId>istio-fake</artifactId>
+            <artifactId>feign-istio-fake</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>

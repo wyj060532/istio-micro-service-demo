@@ -42,7 +42,7 @@ spec:
     spec:
       containers:
         - name: micro-pay
-          image: 10.211.55.2:8080/micro-service/micro-pay:1.0-SNAPSHOT
+          image: registry.cn-beijing.aliyuncs.com/dingdao/micro-pay:1.0-SNAPSHOT
           imagePullPolicy: Always
           tty: true
           ports:
