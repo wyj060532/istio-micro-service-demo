@@ -53,3 +53,5 @@ spec:
             - name: grpc
               protocol: TCP
               containerPort: 18888
+      imagePullSecrets:
+        - name: regcred

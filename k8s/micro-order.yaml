@@ -50,5 +50,6 @@ spec:
               value: micro-pay
             - name: GRPC_SERVER_PORT
               value: "18888"
-
+      imagePullSecrets:
+        - name: regcred
 
